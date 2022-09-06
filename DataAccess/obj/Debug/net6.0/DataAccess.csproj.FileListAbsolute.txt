@@ -1,0 +1,14 @@
+D:\K205\Back\CosmetsyApi\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\K205\Back\CosmetsyApi\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\K205\Back\CosmetsyApi\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+D:\K205\Back\CosmetsyApi\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\K205\Back\CosmetsyApi\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\K205\Back\CosmetsyApi\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache

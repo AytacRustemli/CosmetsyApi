@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "185d5d6f-186a-48b2-9b26-f41a96ac2fc9": {
+      "ProjectGuid": "185d5d6f-186a-48b2-9b26-f41a96ac2fc9",
+      "DisplayName": "CosmetsyApi",
+      "ColorIndex": 0
+    },
+    "57ce30ac-3596-452e-b852-3542b841fdcc": {
+      "ProjectGuid": "57ce30ac-3596-452e-b852-3542b841fdcc",
+      "DisplayName": "Entities",
+      "ColorIndex": 1
+    },
+    "1c174134-461a-42b9-b37f-8c32eb938995": {
+      "ProjectGuid": "1c174134-461a-42b9-b37f-8c32eb938995",
+      "DisplayName": "Business",
+      "ColorIndex": 2
+    },
+    "cc61aa1f-8287-46dd-9be7-d2d49d621943": {
+      "ProjectGuid": "cc61aa1f-8287-46dd-9be7-d2d49d621943",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
