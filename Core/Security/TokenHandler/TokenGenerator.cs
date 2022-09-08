@@ -20,7 +20,7 @@ namespace Core.Security.TokenHandler
             _jWTConfig = jWTConfig;
         }
 
-        public string Token(User user,string role)
+        public string Token(User user)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm");
@@ -30,8 +30,7 @@ namespace Core.Security.TokenHandler
                 {
                     new System.Security.Claims.Claim(JwtRegisteredClaimNames.NameId, user.Id.ToString()),
                     new System.Security.Claims.Claim(JwtRegisteredClaimNames.Email, user.Email),
-                    new System.Security.Claims.Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                    new System.Security.Claims.Claim(ClaimTypes.Role, role),
+                    new System.Security.Claims.Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 }),
                 Expires = DateTime.UtcNow.AddDays(50),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
@@ -39,7 +38,7 @@ namespace Core.Security.TokenHandler
                 Audience = "Compar Academy",
                 Issuer = "Compar Academy"
             };
-            
+
             var token = jwtTokenHandler.CreateToken(tokenDescription);
             return jwtTokenHandler.WriteToken(token);
         }

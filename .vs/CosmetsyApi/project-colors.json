@@ -20,7 +20,17 @@
       "ProjectGuid": "cc61aa1f-8287-46dd-9be7-d2d49d621943",
       "DisplayName": "DataAccess",
       "ColorIndex": 3
+    },
+    "57252587-fef1-47a8-b4cf-26e3fd2be86f": {
+      "ProjectGuid": "57252587-fef1-47a8-b4cf-26e3fd2be86f",
+      "DisplayName": "Core",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
