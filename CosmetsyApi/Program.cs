@@ -53,12 +53,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICategoryDal, CategoryDal>();
 builder.Services.AddScoped<ICategoryManager, CategoryManager>();
-
 builder.Services.AddScoped<IBlogDal, BlogDal>();
 builder.Services.AddScoped<IBlogManager, BlogManager>();
-
 builder.Services.AddScoped<IAuthDal, AuthDal>();
 builder.Services.AddScoped<IAuthManager, AuthManager>();
+builder.Services.AddScoped<ICommentDal, CommentDal>();
+builder.Services.AddScoped<ICommentManager, CommentManager>();
+builder.Services.AddScoped<IOrderDal, OrderDal>();
+builder.Services.AddScoped<IOrderManager, OrderManager>();
+builder.Services.AddScoped<IProductDal, ProductDal>();
+builder.Services.AddScoped<IProductManager, ProductManager>();
+builder.Services.AddScoped<IProductPictureDal, ProductPictureDal>();
+builder.Services.AddScoped<IProductPictureManager, ProductPictureManager>();
 
 builder.Services.AddScoped<HasingHandler>();
 builder.Services.AddScoped<TokenGenerator>();

@@ -11,6 +11,7 @@ namespace Business.Abstract
     public interface IProductManager
     {
         void AddProduct(AddProductDTO product);
+        void UpdateProduct(AddProductDTO product, int id);
         void Remove(Product product);
         List<ProductDTO> GetAllProductList();
         ProductDTO GetProductById(int id);

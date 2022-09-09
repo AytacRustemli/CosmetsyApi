@@ -78,8 +78,6 @@ namespace CosmetsyApi.Controllers
             var handler = new JwtSecurityTokenHandler();
             var jwtSecurityTeam = handler.ReadJwtToken(_bearer_token);
             var email = jwtSecurityTeam.Claims.FirstOrDefault(x => x.Type == "email").Value;
-
-
             var user = _authManager.GetUserByEmail(email);
             var result = new UserDTO(user.Id, user.FullName, user.Email);
             return Ok(result);

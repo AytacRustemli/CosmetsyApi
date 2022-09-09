@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "P5CTNWmLPyKAloxJXvAKQifckMDQkJW+G1RCYv/mbws=",
+  "Hash": "Qv5VbL2Rs4zPT0i4gcCk2CHOKFeT93RxK1fuEupn4bM=",
   "Source": "CosmetsyApi",
   "BasePath": "_content/CosmetsyApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CosmetsyApi\\wwwroot",
+      "Source": "CosmetsyApi",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.8\\staticwebassets\\V5\\css\\site.css",
