@@ -37,17 +37,17 @@ namespace CosmetsyApi.Controllers
             return Ok("Blog added");
         }
 
-        [HttpPut("update")]
-        public IActionResult UpdateCategory(Blog blog)
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateBlog(Blog blog,int id)
         {
-            _blogManager.Update(blog);
-            return Ok(new { status = 200, message = blog });
+            _blogManager.Update(blog,id);
+            return Ok(new { status = 200, message = "Mehsul yenilendi." });
         }
 
-        [HttpDelete("remove")]
-        public IActionResult DeleteCategory(Blog blog)
+        [HttpDelete("remove/{id}")]
+        public async Task<IActionResult> DeleteBlog(Blog blog,int id)
         {
-            _blogManager.Remove(blog);
+            _blogManager.Remove(blog,id);
             return Ok("Melumat ugurla silindi.");
         }
     }

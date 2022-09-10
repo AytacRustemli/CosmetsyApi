@@ -10,8 +10,8 @@ namespace Business.Abstract
     public interface IBlogManager
     {
         void Add(Blog blog);
-        void Remove(Blog blog);
-        void Update(Blog blog);
+        void Remove(Blog blog,int id);
+        void Update(Blog blog,int id);
         List<Blog> GetAllBlog();
         Blog GetBlogById(int id);
     }

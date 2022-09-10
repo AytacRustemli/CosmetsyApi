@@ -33,14 +33,24 @@ namespace Business.Concrete
             return _blogDal.Get(x => x.Id == id);
         }
 
-        public void Remove(Blog blog)
+        public void Remove(Blog blog,int id)
         {
-            _blogDal.Delete(blog);
+            var current = _blogDal.Get(x => x.Id == id);
+            current.Name = blog.Name;
+            current.Picture = blog.Picture;
+            current.Tags = blog.Tags;
+            current.Style = blog.Style;
+            _blogDal.Delete(current);
         }
 
-        public void Update(Blog blog)
+        public void Update(Blog blog,int id)
         {
-            _blogDal.Update(blog);
+            var current = _blogDal.Get(x => x.Id == id);
+            current.Name = blog.Name;
+            current.Picture = blog.Picture;
+            current.Tags = blog.Tags;
+            current.Style = blog.Style;
+            _blogDal.Update(current);
         }
     }
 }

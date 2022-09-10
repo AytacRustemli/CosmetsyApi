@@ -56,9 +56,20 @@ namespace Business.Concrete
             return _productDal.FindById(id);
         }
 
-        public void Remove(Product product)
+        public void RemoveProduct(AddProductDTO product, int id)
         {
-            _productDal.Delete(product);
+            var current = _productDal.Get(x => x.Id == id);
+            current.Name = product.Name;
+            current.Description = product.Description;
+            current.Price = product.Price;
+            current.CoverPhoto = product.CoverPhoto;
+            current.IsStock = product.IsStock;
+            current.IsSale = product.IsSale;
+            current.Brand = product.Brand;
+            current.SalePrice = product.SalePrice;
+            current.SKU = product.SKU;
+            current.Summary = product.Summary;
+            _productDal.Delete(current);
         }
 
         public void UpdateProduct(AddProductDTO product, int id)

@@ -81,5 +81,13 @@ namespace CosmetsyApi.Controllers
             _productManager.UpdateProduct(model, id);
             return Ok(new { status = 200, message = "Mehsul yenilendi" });
         }
+
+        [HttpDelete("removeproduct/{id}")]
+        public async Task<IActionResult> RemoveProduct(AddProductDTO model, int id)
+        {
+
+            _productManager.RemoveProduct(model, id);
+            return Ok(new { status = 200, message = "Mehsul silindi" });
+        }
     }
 }
