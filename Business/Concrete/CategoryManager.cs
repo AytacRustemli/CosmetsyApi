@@ -33,14 +33,18 @@ namespace Business.Concrete
             return _categoryDal.Get(x=>x.Id == id);
         }
 
-        public void Remove(Category category)
+        public void Remove(Category category,int id)
         {
-            _categoryDal.Delete(category);
+            var current = _categoryDal.Get(x => x.Id == id);
+            current.Name = category.Name;
+            _categoryDal.Delete(current);
         }
 
-        public void Update(Category category)
+        public void Update(Category category,int id)
         {
-            _categoryDal.Update(category);
+            var current = _categoryDal.Get(x => x.Id == id);
+            current.Name = category.Name;
+            _categoryDal.Update(current);
         }
     }
 }

@@ -10,8 +10,8 @@ namespace Business.Abstract
     public interface ICategoryManager
     {
         void Add(Category category);
-        void Remove(Category category);
-        void Update(Category category);
+        void Remove(Category category,int id);
+        void Update(Category category,int id);
         List<Category> GetAllCategories();
         Category GetCategoryById(int id);
     }

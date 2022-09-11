@@ -36,5 +36,10 @@ namespace Business.Concrete
         {
             return _commentDal.GetAll(x => x.ProductId == productId);
         }
+
+        public List<Comment> GetCommentByUserId(string userEmail)
+        {
+            return _commentDal.GetAll(x=>x.UserEmail == userEmail);
+        }
     }
 }

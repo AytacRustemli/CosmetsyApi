@@ -11,6 +11,7 @@ namespace Business.Abstract
     public interface ICommentManager
     {
         List<Comment> GetCommentById(int productId);
+        List<Comment> GetCommentByUserId(string userEmail);
         void AddComment(CommentDTO comment);
     }
 }

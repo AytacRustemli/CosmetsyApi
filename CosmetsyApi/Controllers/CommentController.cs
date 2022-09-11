@@ -25,6 +25,15 @@ namespace CosmetsyApi.Controllers
             return Ok(new { status = 200, message = comments });
         }
 
+        [HttpGet("getallbyuserid")]
+        public IActionResult GetAllByUserId(string userEmail)
+        {
+            var comments = _commentManager.GetCommentByUserId(userEmail);
+            if (comments == null)
+                return Ok(new { status = 404, message = "Comment yoxdur." });
+            return Ok(new { status = 200, message = comments });
+        }
+
         [HttpPost("addcomment")]
         public IActionResult AddComment(CommentDTO comment)
         {
