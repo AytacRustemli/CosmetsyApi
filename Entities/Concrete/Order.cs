@@ -17,6 +17,8 @@ namespace Entities.Concrete
         public User User { get; set; }
         public decimal TotalPrice { get; set; }
         public int TotalQuantity { get; set; }
+        public int OrderTrackingId { get; set; }
+        public OrderTracking OrderTracking { get; set; }
         public bool IsDelivered { get; set; }
     }
 }

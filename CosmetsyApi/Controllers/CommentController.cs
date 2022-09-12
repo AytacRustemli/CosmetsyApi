@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Entities.Concrete;
 using Entities.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -46,8 +47,20 @@ namespace CosmetsyApi.Controllers
             {
                 return Ok(new { status = 400, message = "Comment yazarken xeta bas verdi." });
             }
+        }
 
+        [HttpGet("allcomments")]
+        public async Task<IActionResult> GetAllComment()
+        {
+            var comment = _commentManager.GetAllComment();
+            return Ok(new { status = 200, message = comment });
+        }
 
+        [HttpDelete("remove/{id}")]
+        public async Task<IActionResult> DeleteComment(CommentDTO model, int id)
+        {
+            _commentManager.Remove(model, id);
+            return Ok("Melumat ugurla silindi.");
         }
     }
 }

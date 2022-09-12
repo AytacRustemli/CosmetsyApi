@@ -61,6 +61,8 @@ builder.Services.AddScoped<ICommentDal, CommentDal>();
 builder.Services.AddScoped<ICommentManager, CommentManager>();
 builder.Services.AddScoped<IOrderDal, OrderDal>();
 builder.Services.AddScoped<IOrderManager, OrderManager>();
+builder.Services.AddScoped<IOrderTrackingDal, OrderTrackingDal>();
+builder.Services.AddScoped<IOrderTrackingManager, OrderTrackingManager>();
 builder.Services.AddScoped<IProductDal, ProductDal>();
 builder.Services.AddScoped<IProductManager, ProductManager>();
 builder.Services.AddScoped<IProductPictureDal, ProductPictureDal>();

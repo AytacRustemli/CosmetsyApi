@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using var context = new CosmetsyDbContext();
 
-            var orders = context.Orders.Include(x => x.Product).ToList();
+            var orders = context.Orders.Include(x => x.Product).Include(x=>x.User).Include(x=>x.OrderTracking).ToList();
 
             List<OrderDTO> result = new();
 
@@ -28,9 +28,14 @@ namespace DataAccess.Concrete.EntityFramework
                     Id = order.Id,
                     IsDelivered = order.IsDelivered,
                     UserId = order.UserId,
+                    UserEmail = order.User.Email,
+                    OrderTrackingId = order.OrderTrackingId,
                     ProductId = order.ProductId,
+                    ProductName = order.Product.Name,
+                    SKU = order.Product.SKU,
+                    Status = order.OrderTracking.Name,
                     TotalPrice = order.TotalPrice,
-                    TotalQuantity = order.TotalQuantity,
+                    TotalQuantity = order.TotalQuantity
                 };
                 result.Add(orderDTO);
             }
@@ -41,7 +46,7 @@ namespace DataAccess.Concrete.EntityFramework
         public List<OrderDTO> GetUserOrders(int userId)
         {
             using var context = new CosmetsyDbContext();
-            var orderList = context.Orders.Include(X => X.Product).Where(x => x.UserId == userId).ToList();
+            var orderList = context.Orders.Include(X => X.Product).Include(x=>x.User).Include(x=>x.OrderTracking).Where(x => x.UserId == userId).ToList();
 
             List<OrderDTO> list = new();
 
@@ -53,8 +58,13 @@ namespace DataAccess.Concrete.EntityFramework
                     Id = order.Id,
                     ProductId = order.ProductId,
                     IsDelivered = order.IsDelivered,
+                    ProductName= order.Product.Name,
+                    SKU = order.Product.SKU,
+                    UserEmail= order.User.Email,
+                    Status = order.OrderTracking.Name,
                     TotalPrice = order.TotalPrice,
-                    TotalQuantity = order.TotalQuantity
+                    TotalQuantity = order.TotalQuantity,
+                    OrderTrackingId = order.OrderTrackingId
                 };
                 list.Add(orderDTO);
             }

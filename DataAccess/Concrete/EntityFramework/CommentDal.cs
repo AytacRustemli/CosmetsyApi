@@ -6,10 +6,37 @@ using System.Threading.Tasks;
 using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework
 {
     public class CommentDal : EfEntityRepositoryBase<Comment, CosmetsyDbContext>, ICommentDal
     {
+        public List<CommentDTO> GetAllComment()
+        {
+            using var context = new CosmetsyDbContext();
+
+            var comments = context.Comments.Include(x => x.Product).ToList();
+
+            List<CommentDTO> result = new();
+
+            foreach (var comment in comments)
+            {
+                CommentDTO commentDTO = new()
+                {
+                    Id = comment.Id,
+                    UserName = comment.UserName,
+                    UserEmail = comment.UserEmail,
+                    Review = comment.Review,
+                    Ratings = comment.Ratings,
+                    ProductId = comment.ProductId,
+                    ProductName = comment.ProductName
+                };
+                result.Add(commentDTO);
+            }
+
+            return result;
+        }
     }
 }

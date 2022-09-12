@@ -10,9 +10,14 @@ namespace Entities.DTOs
     {
         public int Id { get; set; }
         public int ProductId { get; set; }
+        public string? ProductName { get; set; }
+        public string? SKU { get; set; }
         public int UserId { get; set; }
+        public string? UserEmail { get; set; }
         public decimal TotalPrice { get; set; }
         public int TotalQuantity { get; set; }
+        public int OrderTrackingId { get; set; }
+        public string? Status { get; set; }
         public bool IsDelivered { get; set; }
     }
 }

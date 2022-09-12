@@ -13,5 +13,7 @@ namespace Business.Abstract
         List<Comment> GetCommentById(int productId);
         List<Comment> GetCommentByUserId(string userEmail);
         void AddComment(CommentDTO comment);
+        void Remove(CommentDTO comment, int id);
+        List<CommentDTO> GetAllComment();
     }
 }

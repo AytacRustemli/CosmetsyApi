@@ -25,11 +25,17 @@ namespace Business.Concrete
             {
                 ProductId = comment.ProductId,
                 Ratings = comment.Ratings,
+                ProductName = comment.ProductName,
                 Review = comment.Review,
                 UserEmail = comment.UserEmail,
-                UserName = comment.UserName,
+                UserName = comment.UserName
             };
             _commentDal.Add(com);
+        }
+
+        public List<CommentDTO> GetAllComment()
+        {
+            return _commentDal.GetAllComment();
         }
 
         public List<Comment> GetCommentById(int productId)
@@ -40,6 +46,17 @@ namespace Business.Concrete
         public List<Comment> GetCommentByUserId(string userEmail)
         {
             return _commentDal.GetAll(x=>x.UserEmail == userEmail);
+        }
+
+        public void Remove(CommentDTO comment, int id)
+        {
+            var current = _commentDal.Get(x => x.Id == id);
+            current.UserName = comment.UserName;
+            current.UserEmail = comment.UserEmail;
+            current.Review = comment.Review;
+            current.Ratings = comment.Ratings;
+            current.ProductName = comment.ProductName;
+            _commentDal.Delete(current);
         }
     }
 }

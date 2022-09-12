@@ -27,6 +27,7 @@ namespace CosmetsyApi.Controllers
                     UserId = model.UserId,
                     IsDelivered = model.IsDelivered,
                     ProductId = model.ProductId,
+                    OrderTrackingId = model.OrderTrackingId,
                     TotalPrice = model.TotalPrice,
                     TotalQuantity = model.TotalQuantity
                 };
@@ -52,6 +53,17 @@ namespace CosmetsyApi.Controllers
         {
             var order = _orderManager.GetAllOrders();
             return Ok(new { status = 200, message = order });
+        }
+
+        [HttpPost("updatetracking/{orderId}/{trackId}")]
+        public async Task<IActionResult> UpdateTracking(int orderId, int trackId)
+        {
+
+            var data = _orderManager.GetOrderById(orderId);
+            data.OrderTrackingId = trackId;
+            _orderManager.Update(data);
+
+            return Ok(new { status = 200, message = "Yenilendi." });
         }
 
     }

@@ -14,6 +14,7 @@ namespace Business.Abstract
         void Remove(Order order);
         void Update(Order order);
         List<OrderDTO> GetAll(int userId);
+        Order GetOrderById(int id);
         List<OrderDTO> GetAllOrders();
     }
 }

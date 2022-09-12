@@ -34,6 +34,11 @@ namespace Business.Concrete
             return _orderDal.GetAllOrders();
         }
 
+        public Order GetOrderById(int id)
+        {
+            return _orderDal.Get(x => x.Id == id);
+        }
+
         public void Remove(Order order)
         {
             _orderDal.Delete(order);
