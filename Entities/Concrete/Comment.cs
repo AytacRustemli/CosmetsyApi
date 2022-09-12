@@ -15,7 +15,6 @@ namespace Entities.Concrete
         public string Review { get; set; }
         public int Ratings { get; set; }
         public int ProductId { get; set; }
-        public string? ProductName { get; set; }
         public Product Product { get; set; }
     }
 }

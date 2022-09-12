@@ -25,7 +25,6 @@ namespace Business.Concrete
             {
                 ProductId = comment.ProductId,
                 Ratings = comment.Ratings,
-                ProductName = comment.ProductName,
                 Review = comment.Review,
                 UserEmail = comment.UserEmail,
                 UserName = comment.UserName
@@ -55,7 +54,6 @@ namespace Business.Concrete
             current.UserEmail = comment.UserEmail;
             current.Review = comment.Review;
             current.Ratings = comment.Ratings;
-            current.ProductName = comment.ProductName;
             _commentDal.Delete(current);
         }
     }

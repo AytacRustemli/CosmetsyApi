@@ -30,8 +30,8 @@ namespace DataAccess.Concrete.EntityFramework
                     UserEmail = comment.UserEmail,
                     Review = comment.Review,
                     Ratings = comment.Ratings,
-                    ProductId = comment.ProductId,
-                    ProductName = comment.ProductName
+                    ProductName = comment.Product.Name,
+                    ProductId = comment.ProductId
                 };
                 result.Add(commentDTO);
             }

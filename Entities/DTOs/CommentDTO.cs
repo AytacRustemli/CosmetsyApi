@@ -11,9 +11,9 @@ namespace Entities.DTOs
         public int Id { get; set; }
         public string UserName { get; set; }
         public string UserEmail { get; set; }
+        public string? ProductName { get; set; }
         public string Review { get; set; }
         public int Ratings { get; set; }
         public int ProductId { get; set; }
-        public string? ProductName { get; set; }
     }
 }
