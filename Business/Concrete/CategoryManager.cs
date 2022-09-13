@@ -37,6 +37,8 @@ namespace Business.Concrete
         {
             var current = _categoryDal.Get(x => x.Id == id);
             current.Name = category.Name;
+            current.PhotoURL = category.PhotoURL;
+            current.IsPopular = category.IsPopular;
             _categoryDal.Delete(current);
         }
 
@@ -44,6 +46,8 @@ namespace Business.Concrete
         {
             var current = _categoryDal.Get(x => x.Id == id);
             current.Name = category.Name;
+            current.PhotoURL= category.PhotoURL;
+            current.IsPopular= category.IsPopular;
             _categoryDal.Update(current);
         }
     }
