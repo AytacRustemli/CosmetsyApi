@@ -27,9 +27,9 @@ namespace Business.Concrete
             Product product = new()
             {
                 Name = productDTO.Name,
-                Brand = productDTO.Brand,
                 Description = productDTO.Description,
                 CategoryId = productDTO.CategoryId,
+                BrandId = productDTO.BrandId,
                 Price = productDTO.Price,
                 SalePrice = productDTO.SalePrice,
                 SKU = productDTO.SKU,
@@ -65,7 +65,6 @@ namespace Business.Concrete
             current.CoverPhoto = product.CoverPhoto;
             current.IsStock = product.IsStock;
             current.IsSale = product.IsSale;
-            current.Brand = product.Brand;
             current.SalePrice = product.SalePrice;
             current.SKU = product.SKU;
             current.Summary = product.Summary;
@@ -81,7 +80,6 @@ namespace Business.Concrete
             current.CoverPhoto = product.CoverPhoto;
             current.IsStock = product.IsStock;
             current.IsSale = product.IsSale;
-            current.Brand = product.Brand;
             current.SalePrice = product.SalePrice;
             current.SKU = product.SKU;
             current.Summary = product.Summary;

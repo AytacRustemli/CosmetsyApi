@@ -9,7 +9,6 @@ namespace Entities.DTOs
     public class AddProductDTO
     {
         public string Name { get; set; }
-        public string Brand { get; set; }
         public decimal Price { get; set; }
         public decimal? SalePrice { get; set; }
         public bool IsStock { get; set; }
@@ -19,6 +18,7 @@ namespace Entities.DTOs
         public string SKU { get; set; }
         public string CoverPhoto { get; set; }
         public int CategoryId { get; set; }
+        public int BrandId { get; set; }
         public List<ProductPictureDTO> ProductPicture { get; set; }
     }
 }

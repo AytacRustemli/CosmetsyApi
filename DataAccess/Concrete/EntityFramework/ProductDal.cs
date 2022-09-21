@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (CosmetsyDbContext context = new())
             {
-                var product = context.Products.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
+                var product = context.Products.Include(x => x.Category).Include(x=>x.Brand).FirstOrDefault(x => x.Id == id);
                 var productPictures = context.ProductPicture.Where(x => x.ProductId == id).ToList();
                 var comments = context.Comments.Where(x => x.ProductId == product.Id).ToList();
 
@@ -62,9 +62,9 @@ namespace DataAccess.Concrete.EntityFramework
                 {
                     Id = product.Id,
                     Name = product.Name,
-                    Brand = product.Brand,
                     Description = product.Description,
                     CategoryName = product.Category.Name,
+                    BrandName = product.Brand.Name,
                     Price = product.Price,
                     SalePrice = product.SalePrice,
                     SKU = product.SKU,
@@ -86,7 +86,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (CosmetsyDbContext context = new())
             {
-                var products = context.Products.Include(x => x.Category).Include(x => x.ProductPicture).ToList();
+                var products = context.Products.Include(x => x.Category).Include(x=>x.Brand).Include(x => x.ProductPicture).ToList();
                 var productPictures = context.ProductPicture;
 
                 var ratings = context.Comments;
@@ -130,9 +130,9 @@ namespace DataAccess.Concrete.EntityFramework
                     {
                         Id = products[i].Id,
                         Name = products[i].Name,
-                        Brand = products[i].Brand,
                         Description = products[i].Description,
                         CategoryName = products[i].Category.Name,
+                        BrandName = products[i].Brand.Name,
                         Price = products[i].Price,
                         SalePrice = products[i].SalePrice,
                         SKU = products[i].SKU,

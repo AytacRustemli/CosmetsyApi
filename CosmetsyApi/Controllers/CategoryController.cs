@@ -45,7 +45,7 @@ namespace CosmetsyApi.Controllers
         }
 
         [HttpDelete("remove/{id}")]
-        public async Task<IActionResult> DeleteBlog(Category category, int id)
+        public async Task<IActionResult> DeleteCategory(Category category, int id)
         {
             _categoryManager.Remove(category, id);
             return Ok("Melumat ugurla silindi.");

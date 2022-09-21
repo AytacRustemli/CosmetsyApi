@@ -22,5 +22,6 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<ProductPicture> ProductPicture { get; set; }
+        public DbSet<Brand> Brands { get; set; }
     }
 }

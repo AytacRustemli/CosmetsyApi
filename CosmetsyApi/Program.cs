@@ -67,6 +67,9 @@ builder.Services.AddScoped<IProductDal, ProductDal>();
 builder.Services.AddScoped<IProductManager, ProductManager>();
 builder.Services.AddScoped<IProductPictureDal, ProductPictureDal>();
 builder.Services.AddScoped<IProductPictureManager, ProductPictureManager>();
+builder.Services.AddScoped<IBrandDal, BrandDal>();
+builder.Services.AddScoped<IBrandManager, BrandManager>();
+
 
 builder.Services.AddScoped<HasingHandler>();
 builder.Services.AddScoped<TokenGenerator>();

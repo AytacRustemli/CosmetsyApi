@@ -11,7 +11,7 @@ namespace Entities.Concrete
     {
         public int Id { get; set; } 
         public string Name { get; set; }
-        public string Brand { get; set; }
+        //public string Brand { get; set; }
         public decimal Price { get; set; }
         public decimal? SalePrice { get; set; }
         public bool IsStock { get; set; }
@@ -22,6 +22,8 @@ namespace Entities.Concrete
         public string CoverPhoto { get; set; }
         public int CategoryId   { get; set; }
         public Category Category { get; set; }
+        public int BrandId { get; set; }
+        public Brand Brand { get; set; }
         public List<ProductPicture> ProductPicture { get; set;}
     }
 }
