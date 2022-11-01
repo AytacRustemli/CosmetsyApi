@@ -69,6 +69,8 @@ builder.Services.AddScoped<IProductPictureDal, ProductPictureDal>();
 builder.Services.AddScoped<IProductPictureManager, ProductPictureManager>();
 builder.Services.AddScoped<IBrandDal, BrandDal>();
 builder.Services.AddScoped<IBrandManager, BrandManager>();
+builder.Services.AddScoped<IContactDal, ContactDal>();
+builder.Services.AddScoped<IContactManager, ContactManager>();
 
 
 builder.Services.AddScoped<HasingHandler>();
