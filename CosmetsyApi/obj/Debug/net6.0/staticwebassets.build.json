@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oRy3cpISzWyKpfa1A/FAmRY0P+LMFziupKjcy5DKWps=",
+  "Hash": "XwwtFXe0eBXl/3C5L3b9o7e4bQT2T3gxTnY/0ybdlEo=",
   "Source": "CosmetsyApi",
   "BasePath": "_content/CosmetsyApi",
   "Mode": "Default",
@@ -1207,6 +1207,23 @@
       "OriginalItemSpec": "wwwroot\\files\\0996ac40-0d36-49ef-89b8-946297eff894pr-13-1-600x612.jpg"
     },
     {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\0da661e5-3f8b-4bc5-8836-380515197e9cpr-1-7-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/0da661e5-3f8b-4bc5-8836-380515197e9cpr-1-7-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\0da661e5-3f8b-4bc5-8836-380515197e9cpr-1-7-600x612.jpg"
+    },
+    {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\0f93d80b-81a8-4c32-a54e-2617317f9727client-logo-img1.png",
       "SourceId": "CosmetsyApi",
       "SourceType": "Discovered",
@@ -1273,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\1775c497-35c1-473d-bf2a-73249be8644cpr-10-1-600x612.jpg"
+    },
+    {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\1a130d65-7d8c-4791-a42d-6c20d9b11831pr-1-1-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/1a130d65-7d8c-4791-a42d-6c20d9b11831pr-1-1-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\1a130d65-7d8c-4791-a42d-6c20d9b11831pr-1-1-600x612.jpg"
     },
     {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\1a22d729-189b-464c-a5ea-ae5d982c55d5pr-12-2-150x150.jpg",
@@ -1700,6 +1734,23 @@
       "OriginalItemSpec": "wwwroot\\files\\4736b666-33e7-41ba-a7bf-25ffafa5dc77pr-11-1-600x612.jpg"
     },
     {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\48a22bd7-2615-4275-a544-e5b3060a0249pr-1-2.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/48a22bd7-2615-4275-a544-e5b3060a0249pr-1-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\48a22bd7-2615-4275-a544-e5b3060a0249pr-1-2.jpg"
+    },
+    {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\497cf2e7-4c8c-4147-a903-c7b7c298b851blog-img1.jpg",
       "SourceId": "CosmetsyApi",
       "SourceType": "Discovered",
@@ -1955,6 +2006,23 @@
       "OriginalItemSpec": "wwwroot\\files\\574d07c9-0d0e-4def-b42f-ea5de67ba318client-logo-img2.png"
     },
     {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\5a510e78-8541-430d-9d44-ae8908fc88bepr-1-11-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/5a510e78-8541-430d-9d44-ae8908fc88bepr-1-11-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\5a510e78-8541-430d-9d44-ae8908fc88bepr-1-11-600x612.jpg"
+    },
+    {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\5af3a60a-bde9-4001-a7d3-5b1082bfb153pr-6-1-600x612.jpg",
       "SourceId": "CosmetsyApi",
       "SourceType": "Discovered",
@@ -2089,6 +2157,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\68defd0d-03e8-45ac-810d-bff93685997bpr-13-1-600x612.jpg"
+    },
+    {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\6a1401f3-8f1b-489f-b2c8-15f7dbd9f1e1pr-1-4-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/6a1401f3-8f1b-489f-b2c8-15f7dbd9f1e1pr-1-4-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\6a1401f3-8f1b-489f-b2c8-15f7dbd9f1e1pr-1-4-600x612.jpg"
+    },
+    {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\6aa193d5-c259-48f5-b3f1-95e4188ba91fpr-1-9-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/6aa193d5-c259-48f5-b3f1-95e4188ba91fpr-1-9-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\6aa193d5-c259-48f5-b3f1-95e4188ba91fpr-1-9-600x612.jpg"
     },
     {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\6b0d802b-0477-41d3-88b1-ec60a4e67acbpr-1-1-600x612.jpg",
@@ -2295,6 +2397,23 @@
       "OriginalItemSpec": "wwwroot\\files\\7a5e7087-6365-48e5-b985-76c8273ba883pr-3-1-600x612.jpg"
     },
     {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\7a9a402a-9730-415b-9b80-98fc7b3bbb88pr-1-10-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/7a9a402a-9730-415b-9b80-98fc7b3bbb88pr-1-10-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\7a9a402a-9730-415b-9b80-98fc7b3bbb88pr-1-10-600x612.jpg"
+    },
+    {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\7aeee016-4eab-47bb-ab9a-66c93f421f2apr-1-2.jpg",
       "SourceId": "CosmetsyApi",
       "SourceType": "Discovered",
@@ -2397,6 +2516,23 @@
       "OriginalItemSpec": "wwwroot\\files\\8a3be876-6790-4e3e-a0df-e54b654da521pr-8-2-150x150.jpg"
     },
     {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\8bf27d19-f3f1-4561-8a1a-f109f6aaab6apr-1-10-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/8bf27d19-f3f1-4561-8a1a-f109f6aaab6apr-1-10-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\8bf27d19-f3f1-4561-8a1a-f109f6aaab6apr-1-10-600x612.jpg"
+    },
+    {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\8c9ad1d5-f8e9-4106-85ed-bda829ef2948pr-13-1-600x612.jpg",
       "SourceId": "CosmetsyApi",
       "SourceType": "Discovered",
@@ -2446,6 +2582,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\8e1ebe9d-7759-442c-89d0-7579bc3c057epr-1-1-600x612.jpg"
+    },
+    {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\8e9b7f28-c5d9-4978-9ed9-536dbf64fafapr-1-11-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/8e9b7f28-c5d9-4978-9ed9-536dbf64fafapr-1-11-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\8e9b7f28-c5d9-4978-9ed9-536dbf64fafapr-1-11-600x612.jpg"
     },
     {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\8ed1f888-6cd0-4297-8de9-316047a0a32cclient-logo-img1.png",
@@ -2684,6 +2837,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\a4d2269c-ee45-4289-8480-a409e9b20970pr-9-2-150x150.jpg"
+    },
+    {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\a5474262-5488-4f62-8f4a-493e3644fbcfpr-1-9-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/a5474262-5488-4f62-8f4a-493e3644fbcfpr-1-9-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\a5474262-5488-4f62-8f4a-493e3644fbcfpr-1-9-600x612.jpg"
     },
     {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\a60e8362-33bf-4c54-9439-8cd55325b7efpr-9-1-600x612.jpg",
@@ -3162,6 +3332,23 @@
       "OriginalItemSpec": "wwwroot\\files\\d297842e-0704-4b1b-93a0-94a02bf9c9a7pr-13-1-600x612.jpg"
     },
     {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\d2f6cf3c-eb08-4bcc-88e7-7bd02b2f5de8pr-1-1-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/d2f6cf3c-eb08-4bcc-88e7-7bd02b2f5de8pr-1-1-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\d2f6cf3c-eb08-4bcc-88e7-7bd02b2f5de8pr-1-1-600x612.jpg"
+    },
+    {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\d50395d7-e532-41b3-81a9-c4cb375d5501pr-13-1-600x612.jpg",
       "SourceId": "CosmetsyApi",
       "SourceType": "Discovered",
@@ -3636,6 +3823,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\fc46cfb3-7fae-4266-acd0-552eada5d84cpr-13-2-150x150.jpg"
+    },
+    {
+      "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\fc6380c8-eb4a-4939-b770-ba24f8466e12pr-1-12-600x612.jpg",
+      "SourceId": "CosmetsyApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\",
+      "BasePath": "_content/CosmetsyApi",
+      "RelativePath": "files/fc6380c8-eb4a-4939-b770-ba24f8466e12pr-1-12-600x612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\fc6380c8-eb4a-4939-b770-ba24f8466e12pr-1-12-600x612.jpg"
     },
     {
       "Identity": "D:\\K205\\Back\\CosmetsyApi\\CosmetsyApi\\wwwroot\\files\\fc874a88-2a26-464c-8c1c-f15366904badpr-13-1-600x612.jpg",

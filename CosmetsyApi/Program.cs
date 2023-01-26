@@ -71,6 +71,10 @@ builder.Services.AddScoped<IBrandDal, BrandDal>();
 builder.Services.AddScoped<IBrandManager, BrandManager>();
 builder.Services.AddScoped<IContactDal, ContactDal>();
 builder.Services.AddScoped<IContactManager, ContactManager>();
+builder.Services.AddScoped<IBotanicalDal, BotanicalDal>();
+builder.Services.AddScoped<IBotanicalManager, BotanicalManager>();
+builder.Services.AddScoped<IDavinesDal, DavinesDal>();
+builder.Services.AddScoped<IDavinesManager, DavinesManager>();
 
 
 builder.Services.AddScoped<HasingHandler>();
